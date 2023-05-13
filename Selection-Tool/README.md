@@ -1,7 +1,7 @@
 # bbm479
 
 # Important
-To set env change env file to .env
+To set env change env file to env
 here is content of .env
 
 "SKIP_PREFLIGHT_CHECK=true
