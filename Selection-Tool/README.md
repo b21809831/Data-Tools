@@ -4,6 +4,7 @@
 To set env change env file to env
 here is content of .env
 
+
 "SKIP_PREFLIGHT_CHECK=true
 CI=false yarn build
 REACT_APP_SUPABASE_URL="URL"
@@ -17,7 +18,9 @@ Notes if db is not working:
 ALTER SEQUENCE dataset_id_seq RESTART WITH 9;
 
 Or some id. You should run this command in db.
-
+## Submit Page
+You can see incoming requests via "Submit" at here 
+[Here is Google Sheet Link](https://docs.google.com/spreadsheets/d/1vM2VbZycjqfGiDUFEYNqw0wh-ndTA0aeCd4kamAhd3E/edit?usp=sharing)
 ## Admin Panel
 - Admin panel is in the /admin path.
 - /admin/delete
