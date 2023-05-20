@@ -12,6 +12,12 @@ REACT_APP_SUPABASE_ANON_KEY="SECRET"
 REACT_APP_GOOGLE_SHEET_URL="sheet best"
 REACT_APP_TOOL_URL="AHP-Tool Link""
 
+# Adding &  Deleting 
+You can add or delete via this [Add](https://bbm479.vercel.app/admin/add) & [Delete](https://bbm479.vercel.app/admin/delete) These are deployment's links the password is different than usual one if you want to access local you can check out these routese /admin/add and admin/delete
+
+Important Note" The submit pages only for gathering request from users not for adding or deleting please be might while using the application.
+
+Note 2: Default password is "pass"
 
 ## First App
 Notes if db is not working:
@@ -22,10 +28,10 @@ Or some id. You should run this command in db.
 You can see incoming requests via "Submit" at here 
 [Here is Google Sheet Link](https://docs.google.com/spreadsheets/d/1vM2VbZycjqfGiDUFEYNqw0wh-ndTA0aeCd4kamAhd3E/edit?usp=sharing)
 ## Admin Panel
-- Admin panel is in the /admin path.
 - /admin/delete
 - /admin/add
-- /admin/login (it is temp page)
+- /admin/login (it is temp page) and routes to delete
+The application store basic seassion so you don't have to enter password again and again
 
 ------------
 #### Steps to  build project 
